@@ -19,25 +19,15 @@
   align-items: center;
   justify-content: center;
 
-  width: 100%;
-  height: 100%;
-  max-width: 1440px;
-  max-height: 696px;
+  width: 1440px;
+  height: 696px;
 
-  margin: 0;
-  padding: 28px 164px; /* невеликий відступ від країв */
   background-color: rgba(46, 47, 66, 0.8);
-
-  box-sizing: border-box;
 }
 
 .js-big-image {
   display: block;
-  width: 100%;
-  height: 100%;
-
-  max-width: 1112px;
-  max-height: 640px;
+  width: 1112px;
+  height: 640px;
   overflow: hidden;
-  object-fit: contain; /* зберігає пропорції без обрізання */
 }
