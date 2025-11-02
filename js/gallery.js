@@ -109,8 +109,7 @@ function onGalleryClick(e) {
 
     const instance = basicLightbox.create(`
         <div class="js-frame">
-    <img class="js-big-image" src="${fullImageUrl}" alt="${description}">/>
-    </div>
+    <img class="js-large-image" src="${fullImageUrl}" alt="${description}"></div>
 `)
 
     instance.show();
